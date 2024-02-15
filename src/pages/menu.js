@@ -1,4 +1,5 @@
 import Martini from "../assets/martini.png";
+import Plate from "../assets/plate.png";
 
 export default function displayMenu() {
     console.log('Menu page activated');
@@ -78,7 +79,27 @@ export default function displayMenu() {
     // END DRINKS
 
 
+    // FOOD
 
+    const foodMenu = document.createElement('div');
+    foodMenu.classList.add('foodMenu');
+    menu.appendChild(foodMenu);
+
+    // food HEADER
+    const foodHeader = document.createElement('div');
+    foodHeader.classList.add('foodHeader');
+    foodMenu.appendChild(foodHeader);
+
+    const food = document.createElement('h1');
+    food.textContent = "food";
+    foodHeader.appendChild(food);
+
+    const plate = new Image();
+    plate.src = Plate;
+    plate.classList.add('plate');
+    foodHeader.appendChild(plate);
+    // end food HEADER
+    // END FOOD 
     
 };
 
