@@ -57,6 +57,7 @@ export default function displayMenu() {
     imports.textContent = "imports";
     drinkList.appendChild(imports);
 
+
     // drinkPrices
     const priceList = document.createElement('ul');
     priceList.classList.add('priceList');
@@ -73,5 +74,11 @@ export default function displayMenu() {
     const importsP = document.createElement('li');
     importsP.textContent = "$4.50";
     priceList.appendChild(importsP);
+    // END DRINKS CONTENT
+    // END DRINKS
+
+
+
+    
 };
 
