@@ -1,5 +1,6 @@
 *, *::after, *::before {
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -8,6 +9,8 @@
     --platinumDull: rgba(229, 228, 226, 0.55);
     --amber: rgba(255, 191, 0, 1);
     --amberDull: rgba(255, 191, 0, 0.45);
+
+    --ysabeau: "Ysabeau SC";
 }
 
 body {
@@ -15,6 +18,8 @@ body {
     background-color: var(--night);
 }
 
+
+/* HEADER */
 .headerContent {
     transform: scale(0.45) translateX(-2rem) translateY(-5rem);
     margin: 0;
@@ -51,4 +56,53 @@ nav > button:hover {
     color: var(--night);
 }
 
+/* END HEADER */
 
+
+
+
+
+/* HOME */
+
+
+
+/* END HOME */
+
+
+
+
+
+/* MENU */
+
+
+.menu {
+    display: block;
+    margin: 1rem 0 0 0;
+}
+.drinksHead {
+    display: flex;
+    justify-content: center;
+}
+.drinks {
+    font-family: var(--ysabeau);
+    color: var(--amber);
+    font-size: 2.5rem;
+    font-weight: 100;
+    transform: translateX(3.5rem);
+}
+.drinkIcon {
+    transform: scale(0.15) translateX(5rem) translateY(-37rem);
+    max-height: 15rem;
+}
+
+/* END MENU */
+
+
+
+
+
+/* ABOUT */
+
+
+
+/* END ABOUT */
