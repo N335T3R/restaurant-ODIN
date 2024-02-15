@@ -6,4 +6,12 @@ module.exports = {
     plugins: [new HtmlWebpackPlugin({
         template: "./src/template.html"
     })],
+    module: {
+        rules: [
+            {
+                test: /\.{png|jpg|jpeg|svg|gif}$/i,
+                type: 'asset/resource',
+            },
+        ],
+    },
 };
