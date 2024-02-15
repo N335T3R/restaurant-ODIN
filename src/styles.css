@@ -15,3 +15,12 @@ h1 {
     color: var(--platinum);
 }
 
+nav > button {
+    margin: 0.25rem;
+    border-radius: 0.5rem; 
+    border: none; 
+      /* ^^ removes default */
+
+    background-color: var(--night);
+    color: var(--platinum);
+}
