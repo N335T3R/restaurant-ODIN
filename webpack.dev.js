@@ -18,6 +18,10 @@ module.exports = merge(common, {
                 test: /\.{png|jpg|jpeg|svg|gif}$/i,
                 type: 'asset/resource',
             },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
         ],
     },
 });
