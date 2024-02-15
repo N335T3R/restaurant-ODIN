@@ -30,7 +30,7 @@ body {
 nav {
     display: flex;
     width: 15rem;
-    margin: 2rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
 
     transform: translateX(100%);
     translate: -25%;
