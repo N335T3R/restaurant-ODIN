@@ -1,5 +1,11 @@
+import removeChildren from "../utils/removeChildren";
+// Above function needs work;
+// see ../utils/removeChildren
+
 import Martini from "../assets/martini.png";
 import Plate from "../assets/plate.png";
+
+
 
 export default function displayMenu() {
     console.log('Menu page activated');
