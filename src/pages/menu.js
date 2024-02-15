@@ -28,10 +28,10 @@ export default function displayMenu() {
     drinks.textContent = "Drinks";
     drinksHead.appendChild(drinks);
 
-    // const drinkIcon = new Image();
-    // drinkIcon.src = Martini;
-    // drinkIcon.classList.add('drinkIcon');
-    // drinksHead.appendChild(drinkIcon);
+    const drinkIcon = new Image();
+    drinkIcon.src = Martini;
+    drinkIcon.classList.add('drinkIcon');
+    drinksHead.appendChild(drinkIcon);
     // END DRINKS HEAD
 
 
