@@ -73,15 +73,20 @@ nav > button:hover {
 
 
 /* MENU */
-
-
 .menu {
     display: block;
     margin: 1rem 0 0 0;
 }
+
+/* drinks */
+.drinkMenu {
+    display: block;
+}
+/* drinks headers */
 .drinksHead {
     display: flex;
     justify-content: center;
+    max-height: 4.75rem;
 }
 .drinks {
     font-family: var(--ysabeau);
@@ -94,6 +99,40 @@ nav > button:hover {
     transform: scale(0.15) translateX(5rem) translateY(-37rem);
     max-height: 15rem;
 }
+/* end drinks header */
+
+/* drink list */
+    .drinksContent {
+        display: flex;
+        margin: 0 12rem 0 12rem;
+        transform: translateX(-2rem);
+
+        align-items: center;
+        justify-content: space-around;
+    }
+    .drinkList {
+        display: block;
+        float: left;
+    }
+    .drinkList > li {
+        text-decoration: none;
+        list-style: none;
+
+        color: var(--platinum);
+    }
+
+    .priceList {
+        display: block;
+        float: right;
+    }
+    .priceList > li {
+        text-decoration: none;
+        list-style: none;
+
+        color: var(--platinum);
+    }
+/* end drink list */
+/* end drinks */
 
 /* END MENU */
 
