@@ -28,10 +28,10 @@ export default function displayMenu() {
     drinks.textContent = "Drinks";
     drinksHead.appendChild(drinks);
 
-    const drinkIcon = new Image();
-    drinkIcon.src = Martini;
-    drinkIcon.classList.add('drinkIcon');
-    drinksHead.appendChild(drinkIcon);
+    // const drinkIcon = new Image();
+    // drinkIcon.src = Martini;
+    // drinkIcon.classList.add('drinkIcon');
+    // drinksHead.appendChild(drinkIcon);
     // END DRINKS HEAD
 
 
@@ -45,18 +45,33 @@ export default function displayMenu() {
     drinkList.classList.add('drinkList');
     drinksContent.appendChild(drinkList);
 
-    const martini = document.createElement('li');
-    martini.textContent = "martini";
-    drinkList.appendChild(martini);
+    const mixedDrink = document.createElement('li');
+    mixedDrink.textContent = "mixed drinks";
+    drinkList.appendChild(mixedDrink);
 
+    const domestics = document.createElement('li');
+    domestics.textContent = "domestics";
+    drinkList.appendChild(domestics);
+
+    const imports = document.createElement('li');
+    imports.textContent = "imports";
+    drinkList.appendChild(imports);
 
     // drinkPrices
     const priceList = document.createElement('ul');
     priceList.classList.add('priceList');
     drinksContent.appendChild(priceList);
 
-    const martiniP = document.createElement('li');
-    martiniP.textContent = "$7";
-    priceList.appendChild(martiniP);
+    const mixedP = document.createElement('li');
+    mixedP.textContent = "$7";
+    priceList.appendChild(mixedP);
+
+    const domesticP = document.createElement('li');
+    domesticP.textContent = "$3.50";
+    priceList.appendChild(domesticP);
+
+    const importsP = document.createElement('li');
+    importsP.textContent = "$4.50";
+    priceList.appendChild(importsP);
 };
 

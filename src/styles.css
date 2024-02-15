@@ -11,6 +11,7 @@
     --amberDull: rgba(255, 191, 0, 0.45);
 
     --ysabeau: "Ysabeau SC";
+    --cormorant: "Cormorant";
 }
 
 body {
@@ -81,6 +82,7 @@ nav > button:hover {
 /* drinks */
 .drinkMenu {
     display: block;
+    margin: 2rem 0 0 0;
 }
 /* drinks headers */
 .drinksHead {
@@ -89,16 +91,17 @@ nav > button:hover {
     max-height: 4.75rem;
 }
 .drinks {
+    margin: 0 0 1rem 0;
+
     font-family: var(--ysabeau);
     color: var(--amber);
     font-size: 2.5rem;
     font-weight: 100;
-    transform: translateX(3.5rem);
+    transform: translateX(-1rem);
 }
-.drinkIcon {
-    transform: scale(0.15) translateX(5rem) translateY(-37rem);
-    max-height: 15rem;
-}
+/* .drinkIcon {
+    transform: scale(0.15) translateX(7rem);
+} */
 /* end drinks header */
 
 /* drink list */
@@ -115,10 +118,13 @@ nav > button:hover {
         float: left;
     }
     .drinkList > li {
+        margin: 0 0 0.05rem 0;
         text-decoration: none;
         list-style: none;
 
         color: var(--platinum);
+        font-family: var(--cormorant);
+        font-style: italic
     }
 
     .priceList {
@@ -126,10 +132,12 @@ nav > button:hover {
         float: right;
     }
     .priceList > li {
+        margin: 0 0 0.05rem 0;
         text-decoration: none;
         list-style: none;
 
         color: var(--platinum);
+        font-family: var(--cormorant);
     }
 /* end drink list */
 /* end drinks */
