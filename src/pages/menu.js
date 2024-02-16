@@ -1,7 +1,6 @@
 import removeChildren from "../utils/removeChildren";
-// Above function needs work;
-// see ../utils/removeChildren
 
+// ASSETS
 import Martini from "../assets/martini.png";
 import Plate from "../assets/plate.png";
 

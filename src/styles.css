@@ -29,6 +29,7 @@ h1 {
 
 /* HEADER */
 .headerContent {
+    position: relative;
     transform: scale(0.45) translateX(-2rem) translateY(-5rem);
     margin: 0;
 
@@ -105,6 +106,9 @@ nav > button:hover {
 .drinkList > li, .foodList > li {
     font-style: italic
 }
+.priceList, .foodPrices {
+    font-size: 1.05rem;
+}
 
     /* DRINKS */
     .drinkMenu {
@@ -167,9 +171,30 @@ nav > button:hover {
 
 
 
-
 /* ABOUT */
 
+.wrapper {
+    display: flex;
+    margin: 5rem 7rem 2rem 7rem;
 
+    transform: translateX(1.5rem);
+}
+.firstWord {
+    transform: translateY(-1.35rem);
+
+    font-family: var(--ysabeau);
+    color: var(--amber);
+    font-size: 2rem;
+}
+.aboutUs {
+    text-indent: 4rem;
+    transform: translateX(-3.75rem);
+
+    color: var(--platinum);
+}
+.sendOff {
+    margin: 4rem 0 0 0;
+    text-align: center;
+}
 
 /* END ABOUT */
