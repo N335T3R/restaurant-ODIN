@@ -1,6 +1,6 @@
-export default function removeChildren(div) {
-    const DOMTarget = div;
-    DOMTarget.innerHTML = '';
+export default function removeChildren(element) {
+    const node = element;
+    node.innerHTML = '';
 }
 
 // intention: remove all DOM children & HTML content
